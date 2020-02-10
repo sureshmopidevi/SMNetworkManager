@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - SMNetworkManager (0.0.4):
+  - SMNetworkManager (0.0.5):
     - Alamofire
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  SMNetworkManager: dc39c57d32b2df986b97185a8a2664fff69fb104
+  SMNetworkManager: 8066d879727ec01eabb056d7bdbc48b8a8a05d1e
 
 PODFILE CHECKSUM: a63a7966571e7a67e3d7d79bf8389c5dbd478648
 
