@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMNetworkManager'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'An Elegant network manager'
 
 # This description is used to generate tags and improve search results.
@@ -18,9 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "Simple network manager with Alamofire"
-  s.pod_target_xcconfig = {
-     "SWIFT_VERSION" => "4.0",
-  }
   s.homepage         = 'https://github.com/sureshmopidevi/SMNetworkManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

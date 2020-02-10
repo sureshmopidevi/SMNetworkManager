@@ -1,9 +1,12 @@
 {
   "name": "SMNetworkManager",
-  "version": "0.1.0",
-  "summary": "A short description of SMNetworkManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/iosdevsureshmopidevi@gmail.com/SMNetworkManager",
+  "version": "0.0.4",
+  "summary": "An Elegant network manager",
+  "description": "Simple network manager with Alamofire",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
+  "homepage": "https://github.com/sureshmopidevi/SMNetworkManager.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +15,20 @@
     "iosdevsureshmopidevi@gmail.com": "iosdevsureshmopidevi@gmail.com"
   },
   "source": {
-    "git": "https://github.com/iosdevsureshmopidevi@gmail.com/SMNetworkManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sureshmopidevi/SMNetworkManager.git",
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SMNetworkManager/Classes/**/*"
+  "source_files": "SMNetworkManager/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }
