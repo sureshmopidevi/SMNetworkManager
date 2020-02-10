@@ -1,5 +1,5 @@
 import XCTest
-import SMNetworkingManager
+import SMNetworkManager
 
 class Tests: XCTestCase {
     

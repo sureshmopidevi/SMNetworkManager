@@ -8,145 +8,145 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05ACAE2427889DD1EA222223A2CBE7DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		1227CE7E96E4C2B07607E992D68060A9 /* Pods-SMNetworkingManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93965E6EDC80F97E3A8D02A163CC6062 /* Pods-SMNetworkingManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		225C38AB18302B5AFD462FC782F7D3D3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B1954CE6973A6AEBB72817B5C1427A /* ReplaceMe.swift */; };
-		268A4BCD9F7D79E744CC7ED25501B553 /* SMNetworkingManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EE091CB4C74D4CBF97B42EACD3B6E /* SMNetworkingManager-dummy.m */; };
+		207C4930D9A3C4F286D07D03BC95699F /* Pods-SMNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27922B0091805A71A31A45D02A2FAE90 /* Pods-SMNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B14BCCAB3D1176C634CC3863BEF50A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B1F6FE3709CFA273B6054E9E898E38 /* ReplaceMe.swift */; };
+		2AED480F2D4FA4E02618BDECF6D379EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		2D96B1B17C8166547F40A9F720530F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		3E36BAC0FAF387709A00F4D04576B673 /* Pods-SMNetworkingManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0151A2E5BD532D437641D636A63DC9C4 /* Pods-SMNetworkingManager_Tests-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5FC25B60971ED1AF23FACBC306DD83C7 /* SMNetworkingManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F721FA08ACE4A1CBFBF46E2E17CFA6C1 /* SMNetworkingManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B5DDDFD6D3946EA299252DB45E9CD4 /* Pods-SMNetworkManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4739C549E00E4CB9CE48AE01772FEC33 /* Pods-SMNetworkManager_Tests-dummy.m */; };
+		64E05ECCDC2A0C77FDD8BBC18E13018C /* Pods-SMNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EE1531FFC17F6FDB0B6F2D853F4F11 /* Pods-SMNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		774DAF07E24D5E9F20AE04A9A1E711E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A170978BB8495A2AE74691469FD79A89 /* Pods-SMNetworkingManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 676EC9F86A621B80939F7B90CF2691CC /* Pods-SMNetworkingManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3C8DBF2B0C1B2234DFFC61EBF21497B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		B0331CCCD6F9F1C2927AAE49012686B6 /* SMNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F33BAD1BB1B4FBA2137C139D5F43369A /* SMNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BCA9EAF6F1CE70F28FEFEE08E5DB7270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5FEB9EFDAAB2C06A8C003DCD2AC2E44 /* Pods-SMNetworkingManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D32AA72BE0F64DBABB7BCC3752B98C71 /* Pods-SMNetworkingManager_Example-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		F0ECF36856E7D01D6EA17E8258B7EC3D /* Pods-SMNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DF1295589BD7E301DD0E8C47B16A3 /* Pods-SMNetworkManager_Example-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F46778A554C20067F9544E5A0D448C99 /* SMNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF38A652FF1C97EC0805EF50532F0C /* SMNetworkManager-dummy.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BE0EA8841B851F7D743E4139E89DDA4 /* PBXContainerItemProxy */ = {
+		6760024C3A95E67FE6E1A7E5D89479CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A66A98A2D407CA36EB4C54D91CF60656;
-			remoteInfo = "Pods-SMNetworkingManager_Example";
+			remoteGlobalIDString = 8EC521F5C3D71FAA15273684A123E8C7;
+			remoteInfo = SMNetworkManager;
 		};
-		B820C98AD627D01868102E5F997D3BB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD8D7020C02B1E9A9D61CB33C2076595;
-			remoteInfo = SMNetworkingManager;
-		};
-		F41A2B0A12604CA9260219F58E0B2115 /* PBXContainerItemProxy */ = {
+		A78E69676C03CFFCF94260BA0424275F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		B157EEEA7799A2A8CB076533FF97C21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C009A5A4E30AF12BC8005250C8C6EF09;
+			remoteInfo = "Pods-SMNetworkManager_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0151A2E5BD532D437641D636A63DC9C4 /* Pods-SMNetworkingManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkingManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		061780FC5F5F01E5B93A31CB004AD5C4 /* Pods-SMNetworkingManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMNetworkingManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		08B02CFAABE953400120A9E95B9E933A /* Pods-SMNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0AD22D3A8BA31F139A3E69A121EAD612 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0AFB04ED522A568214DFAA41D266D67F /* Pods-SMNetworkingManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkingManager_Tests.modulemap"; sourceTree = "<group>"; };
-		10DCF847B82E04C45C31DF06D7BC5F3B /* Pods-SMNetworkingManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkingManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		12C54CD35C1F94D6F7D5038A2DC13F85 /* Pods-SMNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		179DD432E0E3D0DB95FB47D6B1757FDB /* Pods-SMNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		3579960DC2554C5D80D4503B618F30A3 /* SMNetworkingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMNetworkingManager.framework; path = SMNetworkingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EE1531FFC17F6FDB0B6F2D853F4F11 /* Pods-SMNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27922B0091805A71A31A45D02A2FAE90 /* Pods-SMNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F9455FBE490FC4372F7ACB5350B71C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		303E1E08B72D077BF9FE848BE19D6770 /* Pods-SMNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		46E4C1EA11100AF9FC9C76FFDE05DCEB /* Pods-SMNetworkingManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkingManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		506062B4C60BFF6F18B5CCD71F1EBC6A /* Pods-SMNetworkingManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkingManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4739C549E00E4CB9CE48AE01772FEC33 /* Pods-SMNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		48778D1ECE4E77F9740D38FD540B1791 /* Pods_SMNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkManager_Example.framework; path = "Pods-SMNetworkManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F25171936A915C0D87A1081EF500353 /* SMNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMNetworkManager-prefix.pch"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5F5EE091CB4C74D4CBF97B42EACD3B6E /* SMNetworkingManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMNetworkingManager-dummy.m"; sourceTree = "<group>"; };
-		648B815673E9BA0BDD5615DACF657FCA /* Pods-SMNetworkingManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkingManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		67233D95867D3BA2DCDCF03CD08068C7 /* Pods-SMNetworkingManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkingManager_Example.modulemap"; sourceTree = "<group>"; };
-		676EC9F86A621B80939F7B90CF2691CC /* Pods-SMNetworkingManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkingManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		704FE639C6F2E79FDCBAE6438E23F776 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		67A30A88DC5CB3CDDAD560E45AB60A8F /* Pods-SMNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6B896EBE3468A2790DD632906EEECB6D /* Pods-SMNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		773F2FF9A3035ED2C5A106D492D4DD9C /* Pods-SMNetworkingManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkingManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79EFB378F55B9C2F26C445146C1A408D /* SMNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMNetworkManager.modulemap; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E6AFB47DB9BBB181D40C28A7B4165D3 /* SMNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SMNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8063E1AB04971B165450922F44CAECFB /* Pods-SMNetworkManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMNetworkManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		826B386283A3B00B8A2B2126AF017DBD /* SMNetworkManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMNetworkManager.xcconfig; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		861EE1879B347BAB79AF98AEFB6AAB3D /* Pods-SMNetworkingManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkingManager_Example-Info.plist"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8C4429B469AAF396E14F2B3CC93C2582 /* Pods-SMNetworkingManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkingManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E2F282A03B762B6F4C6F6EC9BA0BC02 /* SMNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMNetworkManager-Info.plist"; sourceTree = "<group>"; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		93965E6EDC80F97E3A8D02A163CC6062 /* Pods-SMNetworkingManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkingManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		941D89480147111BFAD43AE7D5C1BDD8 /* Pods-SMNetworkingManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkingManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90B1F6FE3709CFA273B6054E9E898E38 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SMNetworkManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		99B1954CE6973A6AEBB72817B5C1427A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SMNetworkingManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		99EDF1FAC23E9FE1F954F96E0FB98A93 /* SMNetworkingManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMNetworkingManager-prefix.pch"; sourceTree = "<group>"; };
+		9B5DF1295589BD7E301DD0E8C47B16A3 /* Pods-SMNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A3EE56164D57A04401B00AFB1BA1B54D /* Pods-SMNetworkingManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkingManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8F69E33E34CE187CC2AC56AFF528C36 /* Pods-SMNetworkManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		AEC53BD605B9D6D7775D8AA4B50655E8 /* Pods_SMNetworkingManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkingManager_Example.framework; path = "Pods-SMNetworkingManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3DD3ADC0D80C32FD4B4A53DF3A5A861 /* SMNetworkingManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMNetworkingManager.xcconfig; sourceTree = "<group>"; };
-		CAD1FD74FB1AB4CADC2195CC182A638C /* Pods-SMNetworkingManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkingManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD77584A351642EC2D7E93970DED6BC8 /* Pods-SMNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
+		B88B8DFEC5AB844B80FC0874B9EACB5E /* SMNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMNetworkManager.framework; path = SMNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D32AA72BE0F64DBABB7BCC3752B98C71 /* Pods-SMNetworkingManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkingManager_Example-dummy.m"; sourceTree = "<group>"; };
-		D59C9B5C958AD7061278C4738F366C91 /* Pods-SMNetworkingManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMNetworkingManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DC78408C9359C7D74691A79CFC85E83F /* SMNetworkingManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SMNetworkingManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA830B842647A49D10F8E1456C8F04E0 /* Pods-SMNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDFF38A652FF1C97EC0805EF50532F0C /* SMNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMNetworkManager-dummy.m"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E28597E324F7239AC798D56586D443A1 /* Pods_SMNetworkingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkingManager_Tests.framework; path = "Pods-SMNetworkingManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E4B714D5BDA388FFF00B7914D201B32C /* Pods-SMNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		E91099C7157549AB5C8A79C316445954 /* SMNetworkingManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMNetworkingManager.modulemap; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EBC8ECA0653C14C2663647CED7AFD41B /* Pods-SMNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6A78DA8D2BBC6B44EFD45B8337A6E9 /* Pods-SMNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F5C2DA8A378D0BB6AE49FB02EB530D53 /* SMNetworkingManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMNetworkingManager-Info.plist"; sourceTree = "<group>"; };
-		F721FA08ACE4A1CBFBF46E2E17CFA6C1 /* SMNetworkingManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMNetworkingManager-umbrella.h"; sourceTree = "<group>"; };
+		F0828CB6F4B17990C08C3C57F42AB1A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F16EA4E2E80A5B810AFC2D84A121E14A /* Pods_SMNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkManager_Tests.framework; path = "Pods-SMNetworkManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33BAD1BB1B4FBA2137C139D5F43369A /* SMNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMNetworkManager-umbrella.h"; sourceTree = "<group>"; };
+		F77C9E8B2DCF8B536EF594A7C6D90BB7 /* Pods-SMNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C34D0064FD3009C7FA775F2BF586E325 /* Frameworks */ = {
+		25A8E14379C7E4B644F9FBF5FB3726B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774DAF07E24D5E9F20AE04A9A1E711E7 /* Foundation.framework in Frameworks */,
+				2AED480F2D4FA4E02618BDECF6D379EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6488C01B4EB87A022742C9BA94EFC06 /* Frameworks */ = {
+		317105F3532AD27751AB0B52AE5F8547 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA9EAF6F1CE70F28FEFEE08E5DB7270 /* Foundation.framework in Frameworks */,
+				2D96B1B17C8166547F40A9F720530F7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0448A4C8DD697DC921D2780BFD8747F /* Frameworks */ = {
+		936B0FDC216AC3E751638174075A1886 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3C8DBF2B0C1B2234DFFC61EBF21497B /* Foundation.framework in Frameworks */,
+				05ACAE2427889DD1EA222223A2CBE7DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,56 +164,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0878473A4519EC00694ADDA92D697612 /* Products */ = {
+		26CC733BF7B62D360AEB8BF500EE78EA /* SMNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				AEC53BD605B9D6D7775D8AA4B50655E8 /* Pods_SMNetworkingManager_Example.framework */,
-				E28597E324F7239AC798D56586D443A1 /* Pods_SMNetworkingManager_Tests.framework */,
-				3579960DC2554C5D80D4503B618F30A3 /* SMNetworkingManager.framework */,
+				90B1F6FE3709CFA273B6054E9E898E38 /* ReplaceMe.swift */,
+				CC97180279B161DC7AE4960F90DC26BB /* Pod */,
+				E85D40103D0159C2CCBCF723163D4271 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0A39762E6F4A2FB4F7BDEE90534BC0FF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4C7C5FC1A76BF3CA5975B95BB232F01 /* Pods-SMNetworkingManager_Example */,
-				877A2CA569A925A7F9B5DF09370DF9DE /* Pods-SMNetworkingManager_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		0CB31CF7B1150D2F66439EECB1C16883 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1C63A73B026D9501DE4F201435E347D4 /* SMNetworkingManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1B101B0A54E2163B33B0F6210135D1C8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E91099C7157549AB5C8A79C316445954 /* SMNetworkingManager.modulemap */,
-				B3DD3ADC0D80C32FD4B4A53DF3A5A861 /* SMNetworkingManager.xcconfig */,
-				5F5EE091CB4C74D4CBF97B42EACD3B6E /* SMNetworkingManager-dummy.m */,
-				F5C2DA8A378D0BB6AE49FB02EB530D53 /* SMNetworkingManager-Info.plist */,
-				99EDF1FAC23E9FE1F954F96E0FB98A93 /* SMNetworkingManager-prefix.pch */,
-				F721FA08ACE4A1CBFBF46E2E17CFA6C1 /* SMNetworkingManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SMNetworkingManager";
-			sourceTree = "<group>";
-		};
-		1C63A73B026D9501DE4F201435E347D4 /* SMNetworkingManager */ = {
-			isa = PBXGroup;
-			children = (
-				99B1954CE6973A6AEBB72817B5C1427A /* ReplaceMe.swift */,
-				47A3F0E9162AAB45E88C5A0D694EC0F3 /* Pod */,
-				1B101B0A54E2163B33B0F6210135D1C8 /* Support Files */,
-			);
-			name = SMNetworkingManager;
+			name = SMNetworkManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -231,14 +189,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		47A3F0E9162AAB45E88C5A0D694EC0F3 /* Pod */ = {
+		4E2C9F7C88641A48DE5C6A82C60003D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AD22D3A8BA31F139A3E69A121EAD612 /* LICENSE */,
-				704FE639C6F2E79FDCBAE6438E23F776 /* README.md */,
-				DC78408C9359C7D74691A79CFC85E83F /* SMNetworkingManager.podspec */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				48778D1ECE4E77F9740D38FD540B1791 /* Pods_SMNetworkManager_Example.framework */,
+				F16EA4E2E80A5B810AFC2D84A121E14A /* Pods_SMNetworkManager_Tests.framework */,
+				B88B8DFEC5AB844B80FC0874B9EACB5E /* SMNetworkManager.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -260,23 +219,6 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		877A2CA569A925A7F9B5DF09370DF9DE /* Pods-SMNetworkingManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0AFB04ED522A568214DFAA41D266D67F /* Pods-SMNetworkingManager_Tests.modulemap */,
-				941D89480147111BFAD43AE7D5C1BDD8 /* Pods-SMNetworkingManager_Tests-acknowledgements.markdown */,
-				CAD1FD74FB1AB4CADC2195CC182A638C /* Pods-SMNetworkingManager_Tests-acknowledgements.plist */,
-				0151A2E5BD532D437641D636A63DC9C4 /* Pods-SMNetworkingManager_Tests-dummy.m */,
-				D59C9B5C958AD7061278C4738F366C91 /* Pods-SMNetworkingManager_Tests-frameworks.sh */,
-				46E4C1EA11100AF9FC9C76FFDE05DCEB /* Pods-SMNetworkingManager_Tests-Info.plist */,
-				676EC9F86A621B80939F7B90CF2691CC /* Pods-SMNetworkingManager_Tests-umbrella.h */,
-				8C4429B469AAF396E14F2B3CC93C2582 /* Pods-SMNetworkingManager_Tests.debug.xcconfig */,
-				10DCF847B82E04C45C31DF06D7BC5F3B /* Pods-SMNetworkingManager_Tests.release.xcconfig */,
-			);
-			name = "Pods-SMNetworkingManager_Tests";
-			path = "Target Support Files/Pods-SMNetworkingManager_Tests";
-			sourceTree = "<group>";
-		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +228,23 @@
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9A47FBAF4946D7C0D925397113C79DB4 /* Pods-SMNetworkManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B896EBE3468A2790DD632906EEECB6D /* Pods-SMNetworkManager_Tests.modulemap */,
+				179DD432E0E3D0DB95FB47D6B1757FDB /* Pods-SMNetworkManager_Tests-acknowledgements.markdown */,
+				ED6A78DA8D2BBC6B44EFD45B8337A6E9 /* Pods-SMNetworkManager_Tests-acknowledgements.plist */,
+				4739C549E00E4CB9CE48AE01772FEC33 /* Pods-SMNetworkManager_Tests-dummy.m */,
+				8063E1AB04971B165450922F44CAECFB /* Pods-SMNetworkManager_Tests-frameworks.sh */,
+				A8F69E33E34CE187CC2AC56AFF528C36 /* Pods-SMNetworkManager_Tests-Info.plist */,
+				22EE1531FFC17F6FDB0B6F2D853F4F11 /* Pods-SMNetworkManager_Tests-umbrella.h */,
+				303E1E08B72D077BF9FE848BE19D6770 /* Pods-SMNetworkManager_Tests.debug.xcconfig */,
+				F77C9E8B2DCF8B536EF594A7C6D90BB7 /* Pods-SMNetworkManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMNetworkManager_Tests";
+			path = "Target Support Files/Pods-SMNetworkManager_Tests";
 			sourceTree = "<group>";
 		};
 		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
@@ -309,21 +268,21 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		B4C7C5FC1A76BF3CA5975B95BB232F01 /* Pods-SMNetworkingManager_Example */ = {
+		B975E805EFD1383AC2209F0AC93F4DF7 /* Pods-SMNetworkManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				67233D95867D3BA2DCDCF03CD08068C7 /* Pods-SMNetworkingManager_Example.modulemap */,
-				506062B4C60BFF6F18B5CCD71F1EBC6A /* Pods-SMNetworkingManager_Example-acknowledgements.markdown */,
-				773F2FF9A3035ED2C5A106D492D4DD9C /* Pods-SMNetworkingManager_Example-acknowledgements.plist */,
-				D32AA72BE0F64DBABB7BCC3752B98C71 /* Pods-SMNetworkingManager_Example-dummy.m */,
-				061780FC5F5F01E5B93A31CB004AD5C4 /* Pods-SMNetworkingManager_Example-frameworks.sh */,
-				861EE1879B347BAB79AF98AEFB6AAB3D /* Pods-SMNetworkingManager_Example-Info.plist */,
-				93965E6EDC80F97E3A8D02A163CC6062 /* Pods-SMNetworkingManager_Example-umbrella.h */,
-				648B815673E9BA0BDD5615DACF657FCA /* Pods-SMNetworkingManager_Example.debug.xcconfig */,
-				A3EE56164D57A04401B00AFB1BA1B54D /* Pods-SMNetworkingManager_Example.release.xcconfig */,
+				AD77584A351642EC2D7E93970DED6BC8 /* Pods-SMNetworkManager_Example.modulemap */,
+				E4B714D5BDA388FFF00B7914D201B32C /* Pods-SMNetworkManager_Example-acknowledgements.markdown */,
+				DA830B842647A49D10F8E1456C8F04E0 /* Pods-SMNetworkManager_Example-acknowledgements.plist */,
+				9B5DF1295589BD7E301DD0E8C47B16A3 /* Pods-SMNetworkManager_Example-dummy.m */,
+				67A30A88DC5CB3CDDAD560E45AB60A8F /* Pods-SMNetworkManager_Example-frameworks.sh */,
+				08B02CFAABE953400120A9E95B9E933A /* Pods-SMNetworkManager_Example-Info.plist */,
+				27922B0091805A71A31A45D02A2FAE90 /* Pods-SMNetworkManager_Example-umbrella.h */,
+				EBC8ECA0653C14C2663647CED7AFD41B /* Pods-SMNetworkManager_Example.debug.xcconfig */,
+				12C54CD35C1F94D6F7D5038A2DC13F85 /* Pods-SMNetworkManager_Example.release.xcconfig */,
 			);
-			name = "Pods-SMNetworkingManager_Example";
-			path = "Target Support Files/Pods-SMNetworkingManager_Example";
+			name = "Pods-SMNetworkManager_Example";
+			path = "Target Support Files/Pods-SMNetworkManager_Example";
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -334,16 +293,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC97180279B161DC7AE4960F90DC26BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0828CB6F4B17990C08C3C57F42AB1A6 /* LICENSE */,
+				2F9455FBE490FC4372F7ACB5350B71C0 /* README.md */,
+				7E6AFB47DB9BBB181D40C28A7B4165D3 /* SMNetworkManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0CB31CF7B1150D2F66439EECB1C16883 /* Development Pods */,
+				E7EBBB2024ACDBA7AE3094D5DF33782B /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				0878473A4519EC00694ADDA92D697612 /* Products */,
-				0A39762E6F4A2FB4F7BDEE90534BC0FF /* Targets Support Files */,
+				4E2C9F7C88641A48DE5C6A82C60003D5 /* Products */,
+				EA18DF8214B6A831D9E23C08BF69C668 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E7EBBB2024ACDBA7AE3094D5DF33782B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26CC733BF7B62D360AEB8BF500EE78EA /* SMNetworkManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -352,6 +329,29 @@
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E85D40103D0159C2CCBCF723163D4271 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EFB378F55B9C2F26C445146C1A408D /* SMNetworkManager.modulemap */,
+				826B386283A3B00B8A2B2126AF017DBD /* SMNetworkManager.xcconfig */,
+				DDFF38A652FF1C97EC0805EF50532F0C /* SMNetworkManager-dummy.m */,
+				8E2F282A03B762B6F4C6F6EC9BA0BC02 /* SMNetworkManager-Info.plist */,
+				4F25171936A915C0D87A1081EF500353 /* SMNetworkManager-prefix.pch */,
+				F33BAD1BB1B4FBA2137C139D5F43369A /* SMNetworkManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMNetworkManager";
+			sourceTree = "<group>";
+		};
+		EA18DF8214B6A831D9E23C08BF69C668 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B975E805EFD1383AC2209F0AC93F4DF7 /* Pods-SMNetworkManager_Example */,
+				9A47FBAF4946D7C0D925397113C79DB4 /* Pods-SMNetworkManager_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,51 +372,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF86A2522269C86A9BF39894AFF50C8 /* Headers */ = {
+		40FFD13BEA1ABF79D724DA94EE1370EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A170978BB8495A2AE74691469FD79A89 /* Pods-SMNetworkingManager_Tests-umbrella.h in Headers */,
+				207C4930D9A3C4F286D07D03BC95699F /* Pods-SMNetworkManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		871AFC4C51AE23D22C5CDA96423F8D4C /* Headers */ = {
+		7A31D68C3ABB9968B2F5AB19EFA72F2E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1227CE7E96E4C2B07607E992D68060A9 /* Pods-SMNetworkingManager_Example-umbrella.h in Headers */,
+				64E05ECCDC2A0C77FDD8BBC18E13018C /* Pods-SMNetworkManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD52CBDB35EA914FB18D7767D547B398 /* Headers */ = {
+		9985EA174D2B819B039E3F551547164F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC25B60971ED1AF23FACBC306DD83C7 /* SMNetworkingManager-umbrella.h in Headers */,
+				B0331CCCD6F9F1C2927AAE49012686B6 /* SMNetworkManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7DC1ADCC70568F55796F5F6D846FBA21 /* Pods-SMNetworkingManager_Tests */ = {
+		8EC521F5C3D71FAA15273684A123E8C7 /* SMNetworkManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F33B08D880BC843764CE5DF73CE7418E /* Build configuration list for PBXNativeTarget "Pods-SMNetworkingManager_Tests" */;
+			buildConfigurationList = E1A09367C3D1AD1F051C53C5C37C46C4 /* Build configuration list for PBXNativeTarget "SMNetworkManager" */;
 			buildPhases = (
-				3CF86A2522269C86A9BF39894AFF50C8 /* Headers */,
-				778A8FC5E3ECC4CA7A6EDF034828F8B8 /* Sources */,
-				C6488C01B4EB87A022742C9BA94EFC06 /* Frameworks */,
-				1F4A597C124F171E137A2F83A32209D6 /* Resources */,
+				9985EA174D2B819B039E3F551547164F /* Headers */,
+				6CBC0EDB24CCF8EE2A97EF915D8B05EC /* Sources */,
+				25A8E14379C7E4B644F9FBF5FB3726B2 /* Frameworks */,
+				AB986A9756FAB5A5E9525B5288602ED0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBC7944190CE7EC0AA03FD96F4DE9387 /* PBXTargetDependency */,
-				0A97B3AB1C2F1D844C006029C17DD57A /* PBXTargetDependency */,
 			);
-			name = "Pods-SMNetworkingManager_Tests";
-			productName = "Pods-SMNetworkingManager_Tests";
-			productReference = E28597E324F7239AC798D56586D443A1 /* Pods_SMNetworkingManager_Tests.framework */;
+			name = SMNetworkManager;
+			productName = SMNetworkManager;
+			productReference = B88B8DFEC5AB844B80FC0874B9EACB5E /* SMNetworkManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -437,41 +435,43 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A66A98A2D407CA36EB4C54D91CF60656 /* Pods-SMNetworkingManager_Example */ = {
+		B16E4D45486E123B93D46688A55B529C /* Pods-SMNetworkManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9364FE2CE54520C31967A1A89E41A8C /* Build configuration list for PBXNativeTarget "Pods-SMNetworkingManager_Example" */;
+			buildConfigurationList = D4FB488F6CF3FC1AE454771617630C69 /* Build configuration list for PBXNativeTarget "Pods-SMNetworkManager_Tests" */;
 			buildPhases = (
-				871AFC4C51AE23D22C5CDA96423F8D4C /* Headers */,
-				DD67019486AA55D7BE28CEC276AAD166 /* Sources */,
-				D0448A4C8DD697DC921D2780BFD8747F /* Frameworks */,
-				1258920387DF7FCEE68C225789051288 /* Resources */,
+				7A31D68C3ABB9968B2F5AB19EFA72F2E /* Headers */,
+				EB6167DF1EA9C8860C799A42007D5645 /* Sources */,
+				936B0FDC216AC3E751638174075A1886 /* Frameworks */,
+				0521CE249DA3AF895636D57F2FDC2F4F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5CA7B610DA34BC097C5A203F4F7AAD2F /* PBXTargetDependency */,
+				7BB39CD6828E8B0833ADE4315601B85A /* PBXTargetDependency */,
+				6BF9FBB153D50C60AAA8B3B4A1AC3D0F /* PBXTargetDependency */,
 			);
-			name = "Pods-SMNetworkingManager_Example";
-			productName = "Pods-SMNetworkingManager_Example";
-			productReference = AEC53BD605B9D6D7775D8AA4B50655E8 /* Pods_SMNetworkingManager_Example.framework */;
+			name = "Pods-SMNetworkManager_Tests";
+			productName = "Pods-SMNetworkManager_Tests";
+			productReference = F16EA4E2E80A5B810AFC2D84A121E14A /* Pods_SMNetworkManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DD8D7020C02B1E9A9D61CB33C2076595 /* SMNetworkingManager */ = {
+		C009A5A4E30AF12BC8005250C8C6EF09 /* Pods-SMNetworkManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96CF7D99199574F207ADC67B31B8DA21 /* Build configuration list for PBXNativeTarget "SMNetworkingManager" */;
+			buildConfigurationList = F7AED20E3D381D3FD1F015A54ABCFD4A /* Build configuration list for PBXNativeTarget "Pods-SMNetworkManager_Example" */;
 			buildPhases = (
-				AD52CBDB35EA914FB18D7767D547B398 /* Headers */,
-				B8C6900847655029EDF29F9C8753F7EA /* Sources */,
-				C34D0064FD3009C7FA775F2BF586E325 /* Frameworks */,
-				1E9DCD869FF132550B2FDDF3BD4AA118 /* Resources */,
+				40FFD13BEA1ABF79D724DA94EE1370EB /* Headers */,
+				32B80473C9B1BB86476A1865D0641DF7 /* Sources */,
+				317105F3532AD27751AB0B52AE5F8547 /* Frameworks */,
+				ACCD3AB75A67C213C02F4B350378F53D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				15CE0F2CAA342F86196749AE0D6BC80A /* PBXTargetDependency */,
 			);
-			name = SMNetworkingManager;
-			productName = SMNetworkingManager;
-			productReference = 3579960DC2554C5D80D4503B618F30A3 /* SMNetworkingManager.framework */;
+			name = "Pods-SMNetworkManager_Example";
+			productName = "Pods-SMNetworkManager_Example";
+			productReference = 48778D1ECE4E77F9740D38FD540B1791 /* Pods_SMNetworkManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -492,34 +492,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0878473A4519EC00694ADDA92D697612 /* Products */;
+			productRefGroup = 4E2C9F7C88641A48DE5C6A82C60003D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
-				A66A98A2D407CA36EB4C54D91CF60656 /* Pods-SMNetworkingManager_Example */,
-				7DC1ADCC70568F55796F5F6D846FBA21 /* Pods-SMNetworkingManager_Tests */,
-				DD8D7020C02B1E9A9D61CB33C2076595 /* SMNetworkingManager */,
+				C009A5A4E30AF12BC8005250C8C6EF09 /* Pods-SMNetworkManager_Example */,
+				B16E4D45486E123B93D46688A55B529C /* Pods-SMNetworkManager_Tests */,
+				8EC521F5C3D71FAA15273684A123E8C7 /* SMNetworkManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1258920387DF7FCEE68C225789051288 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E9DCD869FF132550B2FDDF3BD4AA118 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F4A597C124F171E137A2F83A32209D6 /* Resources */ = {
+		0521CE249DA3AF895636D57F2FDC2F4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,14 +519,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB986A9756FAB5A5E9525B5288602ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCD3AB75A67C213C02F4B350378F53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		778A8FC5E3ECC4CA7A6EDF034828F8B8 /* Sources */ = {
+		32B80473C9B1BB86476A1865D0641DF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E36BAC0FAF387709A00F4D04576B673 /* Pods-SMNetworkingManager_Tests-dummy.m in Sources */,
+				F0ECF36856E7D01D6EA17E8258B7EC3D /* Pods-SMNetworkManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CBC0EDB24CCF8EE2A97EF915D8B05EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B14BCCAB3D1176C634CC3863BEF50A /* ReplaceMe.swift in Sources */,
+				F46778A554C20067F9544E5A0D448C99 /* SMNetworkManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,50 +569,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C6900847655029EDF29F9C8753F7EA /* Sources */ = {
+		EB6167DF1EA9C8860C799A42007D5645 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225C38AB18302B5AFD462FC782F7D3D3 /* ReplaceMe.swift in Sources */,
-				268A4BCD9F7D79E744CC7ED25501B553 /* SMNetworkingManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD67019486AA55D7BE28CEC276AAD166 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5FEB9EFDAAB2C06A8C003DCD2AC2E44 /* Pods-SMNetworkingManager_Example-dummy.m in Sources */,
+				40B5DDDFD6D3946EA299252DB45E9CD4 /* Pods-SMNetworkManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A97B3AB1C2F1D844C006029C17DD57A /* PBXTargetDependency */ = {
+		15CE0F2CAA342F86196749AE0D6BC80A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-SMNetworkingManager_Example";
-			target = A66A98A2D407CA36EB4C54D91CF60656 /* Pods-SMNetworkingManager_Example */;
-			targetProxy = 1BE0EA8841B851F7D743E4139E89DDA4 /* PBXContainerItemProxy */;
+			name = SMNetworkManager;
+			target = 8EC521F5C3D71FAA15273684A123E8C7 /* SMNetworkManager */;
+			targetProxy = 6760024C3A95E67FE6E1A7E5D89479CD /* PBXContainerItemProxy */;
 		};
-		5CA7B610DA34BC097C5A203F4F7AAD2F /* PBXTargetDependency */ = {
+		6BF9FBB153D50C60AAA8B3B4A1AC3D0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SMNetworkingManager;
-			target = DD8D7020C02B1E9A9D61CB33C2076595 /* SMNetworkingManager */;
-			targetProxy = B820C98AD627D01868102E5F997D3BB7 /* PBXContainerItemProxy */;
+			name = "Pods-SMNetworkManager_Example";
+			target = C009A5A4E30AF12BC8005250C8C6EF09 /* Pods-SMNetworkManager_Example */;
+			targetProxy = B157EEEA7799A2A8CB076533FF97C21F /* PBXContainerItemProxy */;
 		};
-		CBC7944190CE7EC0AA03FD96F4DE9387 /* PBXTargetDependency */ = {
+		7BB39CD6828E8B0833ADE4315601B85A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = F41A2B0A12604CA9260219F58E0B2115 /* PBXContainerItemProxy */;
+			targetProxy = A78E69676C03CFFCF94260BA0424275F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18E53ABDA454D461C85A317B19CD22A8 /* Release */ = {
+		0BDB4D1717EA6939D2EDFA3672BB419C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DD3ADC0D80C32FD4B4A53DF3A5A861 /* SMNetworkingManager.xcconfig */;
+			baseConfigurationReference = 826B386283A3B00B8A2B2126AF017DBD /* SMNetworkManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,18 +614,85 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SMNetworkingManager/SMNetworkingManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMNetworkingManager/SMNetworkingManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SMNetworkManager/SMNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMNetworkManager/SMNetworkManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SMNetworkingManager/SMNetworkingManager.modulemap";
-				PRODUCT_MODULE_NAME = SMNetworkingManager;
-				PRODUCT_NAME = SMNetworkingManager;
+				MODULEMAP_FILE = "Target Support Files/SMNetworkManager/SMNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = SMNetworkManager;
+				PRODUCT_NAME = SMNetworkManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C4FCDE517570CDFF8554E438E327EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303E1E08B72D077BF9FE848BE19D6770 /* Pods-SMNetworkManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30F804C78E01864571DA33F02595152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77C9E8B2DCF8B536EF594A7C6D90BB7 /* Pods-SMNetworkManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,9 +732,9 @@
 			};
 			name = Release;
 		};
-		82A2272F747A16BF731D256FE3E2454D /* Release */ = {
+		94A78CB9D6C83A963AB13E484CEFD89E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3EE56164D57A04401B00AFB1BA1B54D /* Pods-SMNetworkingManager_Example.release.xcconfig */;
+			baseConfigurationReference = EBC8ECA0653C14C2663647CED7AFD41B /* Pods-SMNetworkManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -679,12 +746,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkingManager_Example/Pods-SMNetworkingManager_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkingManager_Example/Pods-SMNetworkingManager_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -693,45 +760,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		9A7E3FEE415D6D78741ACABC53DF446B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10DCF847B82E04C45C31DF06D7BC5F3B /* Pods-SMNetworkingManager_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkingManager_Tests/Pods-SMNetworkingManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkingManager_Tests/Pods-SMNetworkingManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -790,6 +822,40 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7645842A5B1BEC4D9D35062A159B3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C54CD35C1F94D6F7D5038A2DC13F85 /* Pods-SMNetworkManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -857,11 +923,10 @@
 			};
 			name = Debug;
 		};
-		BC92427AEDA8A60E32C1D5D0FFB089E0 /* Debug */ = {
+		E36A6FC57DBA45DDE6F04CC4B846672E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C4429B469AAF396E14F2B3CC93C2582 /* Pods-SMNetworkingManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 826B386283A3B00B8A2B2126AF017DBD /* SMNetworkManager.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -871,52 +936,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkingManager_Tests/Pods-SMNetworkingManager_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SMNetworkManager/SMNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMNetworkManager/SMNetworkManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkingManager_Tests/Pods-SMNetworkingManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SMNetworkManager/SMNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = SMNetworkManager;
+				PRODUCT_NAME = SMNetworkManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8113ED48B964222B0A8EC22615EBEEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648B815673E9BA0BDD5615DACF657FCA /* Pods-SMNetworkingManager_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SMNetworkingManager_Example/Pods-SMNetworkingManager_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMNetworkingManager_Example/Pods-SMNetworkingManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -954,37 +985,6 @@
 			};
 			name = Debug;
 		};
-		F80EBB129EC3F0CD02210CB31F0A0650 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DD3ADC0D80C32FD4B4A53DF3A5A861 /* SMNetworkingManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SMNetworkingManager/SMNetworkingManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMNetworkingManager/SMNetworkingManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SMNetworkingManager/SMNetworkingManager.modulemap";
-				PRODUCT_MODULE_NAME = SMNetworkingManager;
-				PRODUCT_NAME = SMNetworkingManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -993,15 +993,6 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96CF7D99199574F207ADC67B31B8DA21 /* Build configuration list for PBXNativeTarget "SMNetworkingManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F80EBB129EC3F0CD02210CB31F0A0650 /* Debug */,
-				18E53ABDA454D461C85A317B19CD22A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1015,20 +1006,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9364FE2CE54520C31967A1A89E41A8C /* Build configuration list for PBXNativeTarget "Pods-SMNetworkingManager_Example" */ = {
+		D4FB488F6CF3FC1AE454771617630C69 /* Build configuration list for PBXNativeTarget "Pods-SMNetworkManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8113ED48B964222B0A8EC22615EBEEF /* Debug */,
-				82A2272F747A16BF731D256FE3E2454D /* Release */,
+				0C4FCDE517570CDFF8554E438E327EC5 /* Debug */,
+				30F804C78E01864571DA33F02595152E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F33B08D880BC843764CE5DF73CE7418E /* Build configuration list for PBXNativeTarget "Pods-SMNetworkingManager_Tests" */ = {
+		E1A09367C3D1AD1F051C53C5C37C46C4 /* Build configuration list for PBXNativeTarget "SMNetworkManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC92427AEDA8A60E32C1D5D0FFB089E0 /* Debug */,
-				9A7E3FEE415D6D78741ACABC53DF446B /* Release */,
+				E36A6FC57DBA45DDE6F04CC4B846672E /* Debug */,
+				0BDB4D1717EA6939D2EDFA3672BB419C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AED20E3D381D3FD1F015A54ABCFD4A /* Build configuration list for PBXNativeTarget "Pods-SMNetworkManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A78CB9D6C83A963AB13E484CEFD89E /* Debug */,
+				B7645842A5B1BEC4D9D35062A159B3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

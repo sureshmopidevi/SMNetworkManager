@@ -1,0 +1,6 @@
+framework module SMNetworkManager {
+  umbrella header "SMNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

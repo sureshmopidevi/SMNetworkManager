@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'SMNetworkingManager_Example' do
-  pod 'SMNetworkingManager', :path => '../'
+target 'SMNetworkManager_Example' do
+  pod 'SMNetworkManager', :path => '../'
 
-  target 'SMNetworkingManager_Tests' do
+  target 'SMNetworkManager_Tests' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'

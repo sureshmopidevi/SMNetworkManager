@@ -4,24 +4,24 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SMNetworkingManager (0.1.0)
+  - SMNetworkManager (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - SMNetworkingManager (from `../`)
+  - SMNetworkManager (from `../`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
-  SMNetworkingManager:
+  SMNetworkManager:
     :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SMNetworkingManager: 73486d60b4afe6b574d734b85b9276c8f7784eac
+  SMNetworkManager: a78c1320a1e214ad1efb3ea75f497a6d160c5d44
 
-PODFILE CHECKSUM: 9c7d494ab212be0c1da4a7dc94521ea782af27d1
+PODFILE CHECKSUM: 62bf82cd1518e53adb21b35ccaab6caa06ec97a3
 
 COCOAPODS: 1.8.4
