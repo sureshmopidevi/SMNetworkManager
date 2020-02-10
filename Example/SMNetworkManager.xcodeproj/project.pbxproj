@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		124AFB08C4853ED6C62844DA /* SMNetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMNetworkManager.podspec; path = ../SMNetworkManager.podspec; sourceTree = "<group>"; };
+		124AFB08C4853ED6C62844DA /* SMNetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMNetworkManager.podspec; path = ../SMNetworkManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3A5F4A4FB46214CF9BE45EB1 /* Pods-SMNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E8B3FCAE7F5721B7F94F39 /* Pods-SMNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SMNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D986283D4FDFF06283E0332 /* Pods_SMNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		976C32AB60B9B6B8F3575653 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AA2ADFC81B2BA8878966A00F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		976C32AB60B9B6B8F3575653 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AA2ADFC81B2BA8878966A00F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6D0EE08CEFEAD3AD9AFD133 /* Pods_SMNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA1547EF658296C5649F445 /* Pods-SMNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Example.release.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FAD8C0F94C90A53D69A90B22 /* Pods-SMNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				3A5F4A4FB46214CF9BE45EB1 /* Pods-SMNetworkManager_Tests.debug.xcconfig */,
 				FAD8C0F94C90A53D69A90B22 /* Pods-SMNetworkManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
