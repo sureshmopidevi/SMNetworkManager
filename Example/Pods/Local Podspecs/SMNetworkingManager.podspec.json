@@ -1,0 +1,22 @@
+{
+  "name": "SMNetworkingManager",
+  "version": "0.1.0",
+  "summary": "A short description of SMNetworkingManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iosdevsureshmopidevi@gmail.com/SMNetworkingManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iosdevsureshmopidevi@gmail.com": "iosdevsureshmopidevi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iosdevsureshmopidevi@gmail.com/SMNetworkingManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SMNetworkingManager/Classes/**/*"
+}
