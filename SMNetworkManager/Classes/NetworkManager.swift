@@ -3,8 +3,9 @@ import Alamofire
 import UIKit
 
 public extension UIViewController {
+    
     func fetch<REQ: Codable, RES: Codable>(url: String, request: REQ, responseType: RES.Type, paramEncoding: URLEncoding = .default, completionHandler: @escaping (_ responseModel: RES) -> ()) {
-        let header: HTTPHeaders = [:]
+        let header: HTTPHeaders = SMNetworkManager.headers
         let params: [String: Any] = encodeToDictionary(from: request)
         Alamofire.request(url, method: .get, parameters: params, encoding: paramEncoding, headers: header).validate(statusCode: 200 ..< 300).responseData { data in
             switch data.result {
@@ -13,7 +14,7 @@ public extension UIViewController {
                     completionHandler(model)
                 }
             case .failure(let error):
-                let alert = UIAlertController.init(title: "Error", message: "", preferredStyle: .alert)
+                let alert = UIAlertController.init(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
                 self.present(alert, animated: true, completion: nil)
                 debugPrint(error.localizedDescription)
             }

@@ -13,6 +13,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        SMNetworkManager.headers = [:]
+        var request = ReqClass()
+        request.category = ""
+        request.country = "IN"
+        request.page = "1"
+        request.pageSize = "10"
+        
+        self.fetch(url: "", request: request, responseType: BaseClass.self, paramEncoding: .default) { (response) in
+            print(response)
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

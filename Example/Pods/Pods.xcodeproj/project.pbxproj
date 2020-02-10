@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */; };
+		1836D21323F1811500F51116 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D21223F1811500F51116 /* Helper.swift */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BDAD0026CDA8E7BCE35AC122E1C8C /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */; };
@@ -83,9 +84,10 @@
 /* Begin PBXFileReference section */
 		08B02CFAABE953400120A9E95B9E933A /* Pods-SMNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
 		0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		1211258B93A4B97144D7F981121256BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1211258B93A4B97144D7F981121256BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		12C54CD35C1F94D6F7D5038A2DC13F85 /* Pods-SMNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		179DD432E0E3D0DB95FB47D6B1757FDB /* Pods-SMNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1836D21223F1811500F51116 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		22EE1531FFC17F6FDB0B6F2D853F4F11 /* Pods-SMNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		27922B0091805A71A31A45D02A2FAE90 /* Pods-SMNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -97,9 +99,9 @@
 		3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		46CA3F3FE18D09F01B2EED67F5930675 /* SMNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMNetworkManager-Info.plist"; sourceTree = "<group>"; };
 		4739C549E00E4CB9CE48AE01772FEC33 /* Pods-SMNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		48778D1ECE4E77F9740D38FD540B1791 /* Pods_SMNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkManager_Example.framework; path = "Pods-SMNetworkManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48778D1ECE4E77F9740D38FD540B1791 /* Pods_SMNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FFCCA47F3C2FDB058F13F533B90341 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A30A88DC5CB3CDDAD560E45AB60A8F /* Pods-SMNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6B896EBE3468A2790DD632906EEECB6D /* Pods-SMNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
 		75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
@@ -108,11 +110,11 @@
 		8674267075A66C0A7B9BA9AA0EC86EF2 /* SMNetworkManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMNetworkManager.xcconfig; sourceTree = "<group>"; };
 		8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		8FA806D61D4FE4847A0AC9C87ECFE596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93ED1C1A86D5F196FF4C3484598DD1DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93ED1C1A86D5F196FF4C3484598DD1DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		985417470B9341C92A5160D4B2FF2B08 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		9B5DF1295589BD7E301DD0E8C47B16A3 /* Pods-SMNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
 		9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8A5BE342D7B072EFE650BD42535D6B /* SMNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMNetworkManager-umbrella.h"; sourceTree = "<group>"; };
 		A8F69E33E34CE187CC2AC56AFF528C36 /* Pods-SMNetworkManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		AD77584A351642EC2D7E93970DED6BC8 /* Pods-SMNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
@@ -120,13 +122,13 @@
 		AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		B2FD6ADCD86220739D76571DB8EC17B5 /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = SMNetworkManager/Classes/NetworkManager.swift; sourceTree = "<group>"; };
-		B88B8DFEC5AB844B80FC0874B9EACB5E /* SMNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMNetworkManager.framework; path = SMNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88B8DFEC5AB844B80FC0874B9EACB5E /* SMNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2DA19A2DD75AA63FC14F1F2F90DE35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		C9C3EF964FFA8A9F78851B59A8D4FFBC /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		CEB1F7CF40F504D018D7C59DE6307AE9 /* SMNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SMNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEB1F7CF40F504D018D7C59DE6307AE9 /* SMNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SMNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D54AEF5647A987180EDAD7E1CEF7387B /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D5870C6A6F4D2575A3F669A71CDF1B04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		D8D1F238FF60993FD470A5B0B9E11E3A /* SMNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMNetworkManager-dummy.m"; sourceTree = "<group>"; };
@@ -137,7 +139,7 @@
 		E4B714D5BDA388FFF00B7914D201B32C /* Pods-SMNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EBC8ECA0653C14C2663647CED7AFD41B /* Pods-SMNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED6A78DA8D2BBC6B44EFD45B8337A6E9 /* Pods-SMNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F16EA4E2E80A5B810AFC2D84A121E14A /* Pods_SMNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMNetworkManager_Tests.framework; path = "Pods-SMNetworkManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16EA4E2E80A5B810AFC2D84A121E14A /* Pods_SMNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		F77C9E8B2DCF8B536EF594A7C6D90BB7 /* Pods-SMNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -297,7 +299,6 @@
 				33115EC2A5164913C68F8BD170389EEE /* Validation.swift */,
 				5C26875CAEBEFEDA19F66418CD7AE5DB /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -334,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				B2FD6ADCD86220739D76571DB8EC17B5 /* NetworkManager.swift */,
+				1836D21223F1811500F51116 /* Helper.swift */,
 				590B3F4D04238B704341FE5AB44AE30E /* Pod */,
 				9C1E9B3948794DE65BF45CF7CEF7562B /* Support Files */,
 			);
@@ -540,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4710A6DA217462EA4F0702A323CB65D2 /* NetworkManager.swift in Sources */,
+				1836D21323F1811500F51116 /* Helper.swift in Sources */,
 				A6A63004F60799898DF7E2C41878C61A /* SMNetworkManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -868,8 +871,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

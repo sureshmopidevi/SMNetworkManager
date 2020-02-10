@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1836D21523F185A900F51116 /* ReqClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D21423F185A900F51116 /* ReqClass.swift */; };
+		1836D21923F185B300F51116 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D21623F185B300F51116 /* Articles.swift */; };
+		1836D21A23F185B300F51116 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D21723F185B300F51116 /* BaseClass.swift */; };
+		1836D21B23F185B300F51116 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D21823F185B300F51116 /* Source.swift */; };
 		48D8684967C0FDA91BCF3C4C /* Pods_SMNetworkManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D0EE08CEFEAD3AD9AFD133 /* Pods_SMNetworkManager_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		124AFB08C4853ED6C62844DA /* SMNetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMNetworkManager.podspec; path = ../SMNetworkManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1836D21423F185A900F51116 /* ReqClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReqClass.swift; sourceTree = "<group>"; };
+		1836D21623F185B300F51116 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		1836D21723F185B300F51116 /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		1836D21823F185B300F51116 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		3A5F4A4FB46214CF9BE45EB1 /* Pods-SMNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Tests/Pods-SMNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E8B3FCAE7F5721B7F94F39 /* Pods-SMNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMNetworkManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMNetworkManager_Example/Pods-SMNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SMNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +123,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				1836D21423F185A900F51116 /* ReqClass.swift */,
+				1836D21623F185B300F51116 /* Articles.swift */,
+				1836D21723F185B300F51116 /* BaseClass.swift */,
+				1836D21823F185B300F51116 /* Source.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -354,7 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836D21923F185B300F51116 /* Articles.swift in Sources */,
+				1836D21A23F185B300F51116 /* BaseClass.swift in Sources */,
+				1836D21B23F185B300F51116 /* Source.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				1836D21523F185A900F51116 /* ReqClass.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
