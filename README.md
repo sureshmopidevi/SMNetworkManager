@@ -1,6 +1,5 @@
 # SMNetworkManager
 
-[![CI Status](https://img.shields.io/travis/iosdevsureshmopidevi@gmail.com/SMNetworkManager.svg?style=flat)](https://travis-ci.org/iosdevsureshmopidevi@gmail.com/SMNetworkManager)
 [![Version](https://img.shields.io/cocoapods/v/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
