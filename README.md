@@ -4,7 +4,16 @@
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
+
 ## Usage
+SMNetworkManager was build to make network calls easy with Alamofire. 
+
+#### Highlights
+- send codable requests
+- get response as model
+- Error popups when failed to get desired response.
+
+and adding more..
 
 ### Headers
  ```swift
