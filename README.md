@@ -4,8 +4,6 @@
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
-
-## Usage
 SMNetworkManager was build the top of [Alamofire](https://github.com/Alamofire/Alamofire) to Handle API calls easily. By SMNetworkManager you can send and get reponse as codable models. 
 
 #### Highlights
@@ -21,7 +19,7 @@ and adding more..
 //setting headers for network calls
 SMNetworkManager.headers = [:]
 ```
-### Basic example
+### Usage
 ```swift
 let request = RequestModel() ///Codable
 
@@ -42,7 +40,7 @@ pod 'SMNetworkManager'
 
 ## Author
 
-iosdevsureshmopidevi@gmail.com, iosdevsureshmopidevi@gmail.com
+🙍🏻‍♂️ [Suresh Mopidevi](iosdevsureshmopidevi@gmail.com)
 
 ## License
 
