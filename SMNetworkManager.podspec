@@ -27,10 +27,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SMNetworkManager/Classes/**/*'
+  #s.source_files = 'SMNetworkManager/**/*.swift'
   s.swift_versions = '4.1'
   # s.resource_bundles = {
   #   'SMNetworkManager' => ['SMNetworkManager/Assets/*.png']
   # }
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire','~> 4.9.1'
+   s.dependency 'Alamofire', '~> 4.9'
+end
