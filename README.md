@@ -6,7 +6,7 @@
 
 
 ## Usage
-SMNetworkManager was build to make network calls easy with Alamofire. 
+SMNetworkManager was build to make network calls easy with [Alamofire](https://github.com/Alamofire/Alamofire). 
 
 #### Highlights
 - send codable requests
