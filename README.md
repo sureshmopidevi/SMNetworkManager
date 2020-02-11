@@ -6,12 +6,13 @@
 
 
 ## Usage
-SMNetworkManager was build to make network calls easy with [Alamofire](https://github.com/Alamofire/Alamofire). 
+SMNetworkManager was build the top of [Alamofire](https://github.com/Alamofire/Alamofire) to Handle API calls easily. By SMNetworkManager you can send and get reponse as codable models. 
 
 #### Highlights
-- send codable requests
-- get response as model
-- Error popups when failed to get desired response.
+- Send request as `Codable`
+- Get response as `Codable model`
+- Custom error dialoges for bad requests
+- Native JSON encoding and decoding procress.
 
 and adding more..
 
@@ -32,7 +33,7 @@ self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel
 
 ## Installation
 
-SMNetworkManager is available through [CocoaPods](https://cocoapods.org). To install
+SMNetworkManager is available through [CocoaPods](https://cocoapods.org/SMNetworkManager). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
