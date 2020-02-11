@@ -28,6 +28,9 @@ self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel
        print(response)
   })
 ```
+#### Response as String
+
+⚙️ In Development
 
 ## Installation
 
