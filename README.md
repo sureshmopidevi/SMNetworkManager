@@ -38,11 +38,11 @@ self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel
 #### Modified request
 
 > HTTP Method
-```swift
+```ruby
  method:HTTPMethod //default = .get
 ```` 
 > URL Encoding
-```swift
+```ruby
 urlEncoding:URLEncoding //default = .default
 ```
 Example:
