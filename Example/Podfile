@@ -5,6 +5,5 @@ target 'SMNetworkManager_Example' do
 
   target 'SMNetworkManager_Tests' do
     inherit! :search_paths
-     pod 'Alamofire'
   end
 end

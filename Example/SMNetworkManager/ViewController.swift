@@ -13,18 +13,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SMNetworkManager.headers = [:]
         var request = ReqClass()
-        request.category = ""
+        request.category = "Sports"
         request.country = "IN"
         request.page = "1"
         request.pageSize = "10"
-        
-        self.fetch(url: "", request: request, responseType: BaseClass.self, paramEncoding: .default) { (response) in
-            print(response)
+        SMNetworkManager.headers = [:]
+        let API:String = "https://jsonplaceholder.typicode.com/posts"
+        self.backgroundQueue {
+            self.fetch(url:API,method: .get,request: request, responseType: [FakeAPIPostsResponse].self) { (model,response)  in
+                print(response)
+            }
         }
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,3 +34,6 @@ class ViewController: UIViewController {
 
 }
 
+/*
+ [![CI Status](https://img.shields.io/travis/iosdevsureshmopidevi@gmail.com/SMNetworkManager.svg?style=flat)](https://travis-ci.org/iosdevsureshmopidevi@gmail.com/SMNetworkManager)
+ */

@@ -7,15 +7,16 @@
 //
 
 import UIKit
+import SMNetworkManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        SMNetworkManager.headers = ["Authorization": "Bearer a2f1b22c3c7a43d89dc44f276c265ac3"]
         return true
     }
 

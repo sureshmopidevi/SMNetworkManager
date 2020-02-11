@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMNetworkManager'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'An Elegant network manager'
 
 # This description is used to generate tags and improve search results.
@@ -18,22 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "Simple network manager with Alamofire"
-  s.homepage         = 'https://github.com/sureshmopidevi/SMNetworkManager.git'
+  s.homepage         = 'https://github.com/sureshmopidevi/SMNetworkManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iosdevsureshmopidevi@gmail.com' => 'iosdevsureshmopidevi@gmail.com' }
+  s.author           = { 'Suresh Mopidevi' => 'iosdevsureshmopidevi@gmail.com' }
   s.source           = { :git => 'https://github.com/sureshmopidevi/SMNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/mopidevisuresh'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SMNetworkManager/Classes/**/*'
-  
+  s.swift_versions = '4.1'
   # s.resource_bundles = {
   #   'SMNetworkManager' => ['SMNetworkManager/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire'
-end
+   s.dependency 'Alamofire','~> 4.9.1'
