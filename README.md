@@ -1,15 +1,34 @@
 # SMNetworkManager
 
-[![CI Status](https://img.shields.io/travis/iosdevsureshmopidevi@gmail.com/SMNetworkManager.svg?style=flat)](https://travis-ci.org/iosdevsureshmopidevi@gmail.com/SMNetworkManager)
 [![Version](https://img.shields.io/cocoapods/v/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
+SMNetworkManager was build to make network calls easy with Alamofire. 
 
-## Requirements
+#### Highlights
+- send codable requests
+- get response as model
+- Error popups when failed to get desired response.
+
+and adding more..
+
+### Headers
+ ```swift
+//setting headers for network calls
+SMNetworkManager.headers = [:]
+```
+### Basic example
+```swift
+let request = RequestModel() ///Codable
+
+//In viewController
+self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self, paramEncoding: .default) { [weak self] (response) in
+       print(response)
+  })
+```
 
 ## Installation
 
