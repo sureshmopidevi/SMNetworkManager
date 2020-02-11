@@ -61,4 +61,4 @@ self.fetch(url: API, method: .post, request: requestModel(), responseType: Repon
 
 ## License
 
-SMNetworkManager is available under the MIT license. See the LICENSE file for more info.
+SMNetworkManager is available under the MIT license. See the [LICENSE](https://github.com/sureshmopidevi/SMNetworkManager/blob/master/LICENSE) file for more info.
