@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
-SMNetworkManager was build the top of [Alamofire](https://github.com/Alamofire/Alamofire) to handle API calls easily. By `SMNetworkManager` you can send request and get reponse as `codable` models. 
+SMNetworkManager was build on the top of [Alamofire](https://github.com/Alamofire/Alamofire) to handle API calls easily. By `SMNetworkManager` allows to send request and get reponse as `codable` models. 
 
 #### Highlights
 - Send request as `Codable`
@@ -27,6 +27,22 @@ let request = RequestModel() ///Codable
 self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self, paramEncoding: .default) { [weak self] (response) in
        print(response)
   })
+```
+#### Modified request
+
+> HTTP Method
+```swift
+ method:HTTPMethod //default = .get
+```` 
+> URL Encoding
+```swift
+urlEncoding:URLEncoding //default = .default
+```
+Example:
+```swift
+self.fetch(url: API, method: .post, request: requestModel(), responseType: ReponseModel.self, paramEncoding: .httpBody) { (responseModel) in
+   print(responseModel)
+  }
 ```
 #### Response as String
 
