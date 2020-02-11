@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMNetworkManager'
-  s.version          = '0.0.6'
+  s.version          = '0.0.8'
   s.summary          = 'An Elegant network manager'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sureshmopidevi/SMNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/mopidevisuresh'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   #s.source_files = 'SMNetworkManager/**/*.swift'
   s.swift_versions = '4.1'
