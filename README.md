@@ -12,7 +12,14 @@ SMNetworkManager was build on the top of [Alamofire](https://github.com/Alamofir
 - Custom error dialoges for bad requests
 - Native JSON encoding and decoding procress.
 
-and adding more..
+## Installation
+
+SMNetworkManager is available through [CocoaPods](https://cocoapods.org/pods/SMNetworkManager). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'SMNetworkManager'
+```
 
 ### Headers
  ```swift
@@ -47,15 +54,6 @@ self.fetch(url: API, method: .post, request: requestModel(), responseType: Repon
 #### Response as String
 
 ⚙️ In Development
-
-## Installation
-
-SMNetworkManager is available through [CocoaPods](https://cocoapods.org/pods/SMNetworkManager). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SMNetworkManager'
-```
 
 ## Author
 
