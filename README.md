@@ -34,7 +34,7 @@ self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel
 
 ## Installation
 
-SMNetworkManager is available through [CocoaPods](https://cocoapods.org/SMNetworkManager). To install
+SMNetworkManager is available through [CocoaPods](https://cocoapods.org/pods/SMNetworkManager). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
