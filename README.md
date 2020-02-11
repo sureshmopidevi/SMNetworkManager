@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
-SMNetworkManager was build the top of [Alamofire](https://github.com/Alamofire/Alamofire) to Handle API calls easily. By SMNetworkManager you can send and get reponse as codable models. 
+SMNetworkManager was build the top of [Alamofire](https://github.com/Alamofire/Alamofire) to handle API calls easily. By `SMNetworkManager` you can send request and get reponse as `codable` models. 
 
 #### Highlights
 - Send request as `Codable`
@@ -40,7 +40,7 @@ pod 'SMNetworkManager'
 
 ## Author
 
-🙍🏻‍♂️ [Suresh Mopidevi](iosdevsureshmopidevi@gmail.com)
+🙍🏻‍♂️ Suresh Mopidevi
 
 ## License
 
