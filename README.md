@@ -31,7 +31,7 @@ SMNetworkManager.headers = [:]
 let request = RequestModel() ///Codable
 
 //In viewController
-self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self, paramEncoding: .default) { [weak self] (response) in
+self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self) { [weak self] (response) in
        print(response)
   })
 ```
@@ -49,7 +49,7 @@ urlEncoding:URLEncoding
 ```
 Example:
 ```swift
-self.fetch(url: API, method: .post, request: requestModel(), responseType: ReponseModel.self, paramEncoding: .httpBody) { (responseModel) in
+self.fetch(url: API, method: .post, paramEncoding: .default, request: requestModel(), responseType: ReponseModel.self) { (responseModel) in
    print(responseModel)
   }
 ```
