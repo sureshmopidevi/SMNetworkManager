@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'Classes/*.swift'
+  s.source_files = 'SMNetworkManager/Classes/**/*
   s.swift_versions = '4.1'
   # s.resource_bundles = {
   #   'SMNetworkManager' => ['SMNetworkManager/Assets/*.png']
