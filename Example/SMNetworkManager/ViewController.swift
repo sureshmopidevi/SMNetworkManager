@@ -13,23 +13,44 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let button: UIButton = {
+            let button = UIButton(frame: .zero)
+            button.titleLabel?.text  = "hey tere"
+            button.translatesAutoresizingMaskIntoConstraints = false
+            return button
+        }()
+        
+        button.addTarget(self, action: #selector(trigger), for: .touchUpInside)
+        self.view.addSubview(button)
+        button.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        button.backgroundColor = .black
+
+    }
+
+    @objc func trigger() {
         var request = ReqClass()
         request.category = "Sports"
         request.country = "IN"
         request.page = "1"
         request.pageSize = "10"
         SMNetworkManager.headers = [:]
-        let API:String = "https://jsonplaceholder.typicode.com/posts"
-        self.backgroundQueue {
-            self.fetch(url:API,method: .get,request: request, responseType: [FakeAPIPostsResponse].self) { (model,response)  in
-                print(response)
+        let API: String = "https://jsonplaceholder.typicode.com/posts"
+        self.errorAlert(title: "Edhi da title", description: "Lets do this", alertType: .promtWithReportToDeveloper(action1TItle: "OK", action2Title: "report", completion: {
+            self.backgroundQueue {
+                self.fetch(url: API, request: request, responseType: [FakeAPIPostsResponse].self) { response in
+                    response.forEach { apiResponse in
+                        print(apiResponse.title ?? "")
+                    }
+                }
             }
-        }
+        }))
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
