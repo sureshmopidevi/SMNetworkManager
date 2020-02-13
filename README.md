@@ -4,45 +4,63 @@
 [![License](https://img.shields.io/cocoapods/l/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/SMNetworkManager.svg?style=flat)](https://cocoapods.org/pods/SMNetworkManager)
 
-
-## Usage
-SMNetworkManager was build to make network calls easy with Alamofire. 
+SMNetworkManager was build on the top of [Alamofire](https://github.com/Alamofire/Alamofire) to handle API calls easily. By `SMNetworkManager` allows to send request and get reponse as `codable` models. 
 
 #### Highlights
-- send codable requests
-- get response as model
-- Error popups when failed to get desired response.
-
-and adding more..
-
-### Headers
- ```swift
-//setting headers for network calls
-SMNetworkManager.headers = [:]
-```
-### Basic example
-```swift
-let request = RequestModel() ///Codable
-
-//In viewController
-self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self, paramEncoding: .default) { [weak self] (response) in
-       print(response)
-  })
-```
+- Send request as `Codable`
+- Get response as `Codable model`
+- Custom error dialoges for bad requests
+- Native JSON encoding and decoding procress.
 
 ## Installation
 
-SMNetworkManager is available through [CocoaPods](https://cocoapods.org). To install
+SMNetworkManager is available through [CocoaPods](https://cocoapods.org/pods/SMNetworkManager). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SMNetworkManager'
 ```
 
+### Headers
+ ```swift
+//setting headers for network calls
+SMNetworkManager.headers = [:]
+```
+### Usage
+```swift
+let request = RequestModel() ///Codable
+
+//In viewController
+self.fetch(url: "https://someAPI", request: request, responseType: ResponseModel.self) { [weak self] (response) in
+       print(response)
+  })
+```
+#### Modified request
+
+HTTP Method
+```swift
+//default = .get
+ method:HTTPMethod 
+```` 
+URL Encoding
+```swift
+//default = .get
+urlEncoding:URLEncoding 
+```
+Example:
+```swift
+self.fetch(url: API, method: .post, paramEncoding: .default, request: requestModel(), responseType: ReponseModel.self) { (responseModel) in
+   print(responseModel)
+  }
+```
+#### Response as String
+
+⚙️ In Development
+
 ## Author
 
-iosdevsureshmopidevi@gmail.com, iosdevsureshmopidevi@gmail.com
+🙍🏻‍♂️ Suresh Mopidevi
 
 ## License
 
-SMNetworkManager is available under the MIT license. See the LICENSE file for more info.
+SMNetworkManager is available under the MIT license. See the [LICENSE](https://github.com/sureshmopidevi/SMNetworkManager/blob/master/LICENSE) file for more info.
