@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMNetworkManager'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'An Elegant network manager'
 
 # This description is used to generate tags and improve search results.
