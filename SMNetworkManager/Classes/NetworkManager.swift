@@ -12,10 +12,10 @@ public extension UIViewController {
     ///   - request: `Codable object`
     ///   - responseType: `Codable object`
     ///   - completionHandler: returns response as `codable` object
+    
     func fetch<REQ: Codable, RES: Codable>(url: String, method: HTTPMethod = .get,parameterEncoding: URLEncoding = .default, request: REQ, responseType: RES.Type, completionHandler: @escaping (_ responseModel: RES) -> ()) {
         let header: HTTPHeaders = SMNetworkManager.headers
         let params: [String: Any] = SMNetworkManager.encodeToDictionary(from: request)
-        
         Alamofire.request(url, method: method, parameters: params, encoding: parameterEncoding, headers: header).validate(statusCode: 200 ..< 300).responseData { data in
             switch data.result {
             case .success(let data):
@@ -86,6 +86,7 @@ public extension UIViewController {
 }
 
 public extension Data {
+    
     func decodeTo<T: Codable>(model: T.Type) -> T? {
         var decodedData: T?
         do {
@@ -98,3 +99,23 @@ public extension Data {
         return decodedData
     }
 }
+
+public class SMNetworkManager: NSObject {
+    public static var headers: HTTPHeaders = [:]
+
+    public static func encodeToDictionary<MODEL: Codable>(from model: MODEL) -> [String: Any] {
+        var jsonDictionary: [String: Any] = [:]
+        do {
+            let jsonData = try JSONEncoder().encode(model)
+            if let json = try JSONSerialization.jsonObject(with: jsonData, options: .allowFragments) as? [String: Any] {
+                jsonDictionary = json
+            } else {
+                debugPrint("Unable to serialize data")
+            }
+        } catch {
+            debugPrint("Unable to parse data,", error.localizedDescription)
+        }
+        return jsonDictionary
+    }
+}
+
